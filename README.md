@@ -148,6 +148,90 @@
 | KEYCLOAK-14062 | [KEYCLOAK-14062 Add postgres10](https://github.com/keycloak/keycloak/commit/37e23cb0a2bb66ef371a6f3fb0618844a34f6e00) | https://issues.redhat.com/browse/KEYCLOAK-14062 |
 | KEYCLOAK-14086 | [KEYCLOAK-14086 Outdated wildfly deprecated version](https://github.com/keycloak/keycloak/commit/4a70494285054239999257dc7087a5e788c50f3d) | https://issues.redhat.com/browse/KEYCLOAK-14086 |
 
+## 10.0.2
+[Changelog](https://github.com/keycloak/keycloak/compare/10.0.1...10.0.2)
+
+| Ticket-ID | Commit | Issue-ID |
+| --- | --- | --- |
+
+## 10.0.1
+[Changelog](https://github.com/keycloak/keycloak/compare/10.0.0...10.0.1)
+
+| Ticket-ID | Commit | Issue-ID |
+| --- | --- | --- |
+
+## 10.0.0
+[Changelog](https://github.com/keycloak/keycloak/compare/9.0.3...10.0.0)
+
+| Ticket-ID | Commit | Issue-ID |
+| --- | --- | --- |
+| KEYCLOAK-13636 | [KEYCLOAK-13636 Missing wildfly-dist in EAP 7.4.0.CD19 build](https://github.com/keycloak/keycloak/commit/be28bfee1dc22d19c637b0bde70be3665338585f) | https://issues.redhat.com/browse/KEYCLOAK-13636 |
+| KEYCLOAK-13656 | [[KEYCLOAK-13656] - Deny request if requested scope is not associated to resource or any typed resources](https://github.com/keycloak/keycloak/commit/44b489b57198200688396ca7111e049d124e0f72) | https://issues.redhat.com/browse/KEYCLOAK-13656 |
+| KEYCLOAK-13852 | [KEYCLOAK-13852 reset time at the end of testTokenConcurrentRefresh test](https://github.com/keycloak/keycloak/commit/1db87acc98edbf616f9af7deb992a32176940ded) | https://issues.redhat.com/browse/KEYCLOAK-13852 |
+| KEYCLOAK-13306 | [KEYCLOAK-13306 Model fixes for check realm when lookup by ID](https://github.com/keycloak/keycloak/commit/b29810c92328be014023e87f73325095df221c2a) | https://issues.redhat.com/browse/KEYCLOAK-13306 |
+| KEYCLOAK-13285 | [KEYCLOAK-13285 Enable check identity for email](https://github.com/keycloak/keycloak/commit/97b565469058cacac6d2559b2cff37effcca2cfd) | https://issues.redhat.com/browse/KEYCLOAK-13285 |
+| KEYCLOAK-7450 | [[KEYCLOAK-7450] - Match subject when validating id_token returned from external OP](https://github.com/keycloak/keycloak/commit/b60b85ab65a6197f6f1bce84880fcf447e6afbd6) | https://issues.redhat.com/browse/KEYCLOAK-7450 |
+| KEYCLOAK-13660 | [KEYCLOAK-13660 Patch installation is not performed with -Dauth.server.patch.zips](https://github.com/keycloak/keycloak/commit/52b67f61725ce70b127d37486cc75e53df93323c) | https://issues.redhat.com/browse/KEYCLOAK-13660 |
+| KEYCLOAK-13383 | [KEYCLOAK-13383 WebAuthnRegisterAndLoginTest fails with -Dproduct with auth-server-eap](https://github.com/keycloak/keycloak/commit/bf92bd16b05ca333b9cffd1600b307fbdfc943bd) | https://issues.redhat.com/browse/KEYCLOAK-13383 |
+| KEYCLOAK-13384 | [KEYCLOAK-13384 exclude IdentityProviderTest.failCreateInvalidUrl from remote-tests](https://github.com/keycloak/keycloak/commit/330d5b2c253143f6a93d760aee768b1332460cb1) | https://issues.redhat.com/browse/KEYCLOAK-13384 |
+| KEYCLOAK-13571 | [KEYCLOAK-13571 KcinitTest fails with -Dproduct due to skipped maven plugin exacution](https://github.com/keycloak/keycloak/commit/780d11e790f460d7307e1e112b7b7a7fc658fdea) | https://issues.redhat.com/browse/KEYCLOAK-13571 |
+| KEYCLOAK-12972 | [KEYCLOAK-12972 Fix fuse tests](https://github.com/keycloak/keycloak/commit/8b96882a1c990faf1ec0a4bf44c49bd83929f2eb) | https://issues.redhat.com/browse/KEYCLOAK-12972 |
+
+## 9.0.3
+[Changelog](https://github.com/keycloak/keycloak/compare/9.0.2...9.0.3)
+
+| Ticket-ID | Commit | Issue-ID |
+| --- | --- | --- |
+| KEYCLOAK-13383 | [KEYCLOAK-13383 WebAuthnRegisterAndLoginTest fails with -Dproduct with auth-server-eap](https://github.com/keycloak/keycloak/commit/dcd9f3dfd1a7f560320b53e4150f7890736db530) | https://issues.redhat.com/browse/KEYCLOAK-13383 |
+| KEYCLOAK-13384 | [KEYCLOAK-13384 exclude IdentityProviderTest.failCreateInvalidUrl from remote-tests](https://github.com/keycloak/keycloak/commit/a6c9b35650fd82d8546808f703cd4311ff51fcd5) | https://issues.redhat.com/browse/KEYCLOAK-13384 |
+| KEYCLOAK-13571 | [KEYCLOAK-13571 KcinitTest fails with -Dproduct due to skipped maven plugin exacution](https://github.com/keycloak/keycloak/commit/cb4bf825cb335874a9ad9132420462fd3354fa81) | https://issues.redhat.com/browse/KEYCLOAK-13571 |
+| KEYCLOAK-12972 | [KEYCLOAK-12972 Fix fuse tests](https://github.com/keycloak/keycloak/commit/50fc8cdb985a8993037ece4651846aa9d7202b91) | https://issues.redhat.com/browse/KEYCLOAK-12972 |
+| KEYCLOAK-13285 | [KEYCLOAK-13285 Enable check identity for email](https://github.com/keycloak/keycloak/commit/531dc51ab7237e826147b2073f8a737544d5f265) | https://issues.redhat.com/browse/KEYCLOAK-13285 |
+
+## 9.0.2
+[Changelog](https://github.com/keycloak/keycloak/compare/9.0.0...9.0.2)
+
+| Ticket-ID | Commit | Issue-ID |
+| --- | --- | --- |
+
+## 9.0.1
+
+There is no 9.0.1 tag (anymore).
+
+## 9.0.0
+[Changelog](https://github.com/keycloak/keycloak/compare/8.0.2...9.0.0)
+
+| Ticket-ID | Commit | Issue-ID |
+| --- | --- | --- |
+| KEYCLOAK-10420 | [KEYCLOAK-10420 Broker tests don't work with RH-SSO](https://github.com/keycloak/keycloak/commit/90b35cc13d5ac9c8e785ecba1e7e94f50536cce8) | https://issues.redhat.com/browse/KEYCLOAK-10420 |
+| KEYCLOAK-12065 | [KEYCLOAK-12065 UserSessionInitializerTest is failing](https://github.com/keycloak/keycloak/commit/1bdf77f40936611e963cd775f581fe2ed0aae8cf) | https://issues.redhat.com/browse/KEYCLOAK-12065 |
+| KEYCLOAK-12964 | [KEYCLOAK-12964 Fix adapter remote tests execution deciding](https://github.com/keycloak/keycloak/commit/c3f0b342bfbeece5b19d9cca33831a3af2947922) | https://issues.redhat.com/browse/KEYCLOAK-12964 |
+| KEYCLOAK-12963 | [KEYCLOAK-12963 Exclude testNoPortInDestination test for remote container](https://github.com/keycloak/keycloak/commit/f28ca30e6df92f85fb9037729c710d5728dffed5) | https://issues.redhat.com/browse/KEYCLOAK-12963 |
+| KEYCLOAK-12237 | [KEYCLOAK-12237 Fix WelcomePageTest on Postgresql](https://github.com/keycloak/keycloak/commit/3d22644bbe0e95638059ff077c83c119b6f00f72) | https://issues.redhat.com/browse/KEYCLOAK-12237 |
+| KEYCLOAK-11930 | [KEYCLOAK-11930 removal of xstream license references as this dependency has been removed](https://github.com/keycloak/keycloak/commit/96c2fffd1e5f1a64cef4251f338ed2695926f696) | https://issues.redhat.com/browse/KEYCLOAK-11930 |
+| KEYCLOAK-12228 | [KEYCLOAK-12228 Sensitive Data Exposure from patch of hiba haddad haddadhiba0@gmail.com](https://github.com/keycloak/keycloak/commit/622a97bd1c3044760b2166301864da9941cae131) | https://issues.redhat.com/browse/KEYCLOAK-12228 |
+| KEYCLOAK-12821 | [KEYCLOAK-12821 Check if action is disabled in realm before executing](https://github.com/keycloak/keycloak/commit/3c0cf8463aea85f4658ff764f53f24853dcd7296) | https://issues.redhat.com/browse/KEYCLOAK-12821 |
+| KEYCLOAK-9563 | [KEYCLOAK-9563 Improve access token checks for userinfo endpoint](https://github.com/keycloak/keycloak/commit/1d54f2ade391f397956fdcb66f75daf0182d8c1e) | https://issues.redhat.com/browse/KEYCLOAK-9563 |
+| KEYCLOAK-12638 | [KEYCLOAK-12638 Remove Request parameters from exception message](https://github.com/keycloak/keycloak/commit/62c9e1577618470832ede22dcedd46cba15b1836) | https://issues.redhat.com/browse/KEYCLOAK-12638 |
+| KEYCLOAK-12764 | [KEYCLOAK-12764 Fix shrinkwrap issue by updating arquillian bom version](https://github.com/keycloak/keycloak/commit/e5935d8069154db2bc9ee83ae85c7e1ff6822324) | https://issues.redhat.com/browse/KEYCLOAK-12764 |
+| KEYCLOAK-12193 | [KEYCLOAK-12193 Internal error message returned in error response](https://github.com/keycloak/keycloak/commit/ecec20ad597ae360a964b4c039827bab8e27a2fe) | https://issues.redhat.com/browse/KEYCLOAK-12193 |
+| KEYCLOAK-12190 | [KEYCLOAK-12190 Fix PartialImportTest for client validation](https://github.com/keycloak/keycloak/commit/5d1fa8719e12c7013c2016621efe1cf8bdeb0a00) | https://issues.redhat.com/browse/KEYCLOAK-12190 |
+| KEYCLOAK-12190 | [KEYCLOAK-12190 Add validation for client root and base URLs](https://github.com/keycloak/keycloak/commit/75457496325c4ae8963199a318d834d6a5eaad16) | https://issues.redhat.com/browse/KEYCLOAK-12190 |
+| KEYCLOAK-12792 | [[KEYCLOAK-12792] - Invalid nonce handling in OIDC identity brokering](https://github.com/keycloak/keycloak/commit/fc514aa2567ca353b8c3dc380ff80b9af88c9295) | https://issues.redhat.com/browse/KEYCLOAK-12792 |
+| KEYCLOAK-12240 | [KEYCLOAK-12240 MigrationModelTest fails in pipeline](https://github.com/keycloak/keycloak/commit/337e8f8fad5404bc5a27ea1340956861b1515747) | https://issues.redhat.com/browse/KEYCLOAK-12240 |
+| KEYCLOAK-12744 | [[KEYCLOAK-12744] rh-sso-preview theme for product build](https://github.com/keycloak/keycloak/commit/6ac5a2a17ed00bfd36ad103f56f3797547157fcf) | https://issues.redhat.com/browse/KEYCLOAK-12744 |
+| KEYCLOAK-12236 | [KEYCLOAK-12236 NumberFormatException when starting container (#6689)](https://github.com/keycloak/keycloak/commit/d6c5f79f2cd7d388780ea29c5ef39707ecdd2f5f) | https://issues.redhat.com/browse/KEYCLOAK-12236 |
+| KEYCLOAK-12724 | [KEYCLOAK-12724 - workaround hibernate bug - set explicitly dialect for oracle version greater than 12](https://github.com/keycloak/keycloak/commit/47d6d65bbb18a5f23a5b67c2282e2090fab9e4a3) | https://issues.redhat.com/browse/KEYCLOAK-12724 |
+| KEYCLOAK-12462 | [KEYCLOAK-12462 Align to EAP 7.3.0.CR3](https://github.com/keycloak/keycloak/commit/89fc0e1fcc3df43e4a8e89c817b897f8aa9a5d60) | https://issues.redhat.com/browse/KEYCLOAK-12462 |
+| KEYCLOAK-12462 | [KEYCLOAK-12462 Align to EAP 7.3.0.GA](https://github.com/keycloak/keycloak/commit/e1f8e5d08cd377bcc8f8c19e417f54f43e0ae420) | https://issues.redhat.com/browse/KEYCLOAK-12462 |
+| KEYCLOAK-12242 | [KEYCLOAK-12242 KEYCLOAK-12280](https://github.com/keycloak/keycloak/commit/1ac76fde5986d78f34f6a73cd157487bc26d8b36) | https://issues.redhat.com/browse/KEYCLOAK-12242 |
+| KEYCLOAK-11863 | [KEYCLOAK-11863 ConfigMigrationTest wrong assertion for Standalone configuration](https://github.com/keycloak/keycloak/commit/13b546315325750230ea4762fbfa5adc362cea68) | https://issues.redhat.com/browse/KEYCLOAK-11863 |
+| KEYCLOAK-12062 | [KEYCLOAK-12062 AccountLinkSpringBootTest is failing](https://github.com/keycloak/keycloak/commit/3c3667d81e60cda096ab6073672d7ed252e280f6) | https://issues.redhat.com/browse/KEYCLOAK-12062 |
+| KEYCLOAK-12117 | [KEYCLOAK-12117 X509BrowserLoginTest failing in pipeline](https://github.com/keycloak/keycloak/commit/50ec24557e16741e1ac2d97ed9280432b5add631) | https://issues.redhat.com/browse/KEYCLOAK-12117 |
+| KEYCLOAK-12072 | [KEYCLOAK-12072 Missing version for spring-boot-legacy-container-bundle in product](https://github.com/keycloak/keycloak/commit/ebb1883427dd210967510fa23f31bd9a3732d0f2) | https://issues.redhat.com/browse/KEYCLOAK-12072 |
+| KEYCLOAK-12070 | [KEYCLOAK-12070 Split properties for sun.xml.ws and sun.xml.bind](https://github.com/keycloak/keycloak/commit/ee72cab41547b95dc19b2dac50f98b2315dbbeeb) | https://issues.redhat.com/browse/KEYCLOAK-12070 |
+| KEYCLOAK-12070 | [KEYCLOAK-12070 Alignment clash for sun.jaxb.version](https://github.com/keycloak/keycloak/commit/1fd3d8525bf4c29425c3a570246e67fa8c66f339) | https://issues.redhat.com/browse/KEYCLOAK-12070 |
+
 # Misq
 
 ## Why?
