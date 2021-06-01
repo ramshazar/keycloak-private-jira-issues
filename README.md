@@ -152,7 +152,7 @@
 
 ## Why?
 The Keycloak maintainers do not announce security fixes (Like for every rule there are [exceptions](https://www.keycloak.org/docs/latest/release_notes/index.html#ldap-issue)).
-So to identify the criticality of an update you have to check all the changes in the git repository and try to find out which of them a security fixes. But the Keycloak team makes their JIRA issues private, if they are about security issues.
+So to identify the criticality of an update you have to check all the changes in the git repository and try to find out which of them a security fixes. But the Keycloak team makes their JIRA issues private, if they are about security issues. That allows us to correlate git commits with JIRA issues that are private.
 I miss this list on every Keycloak update. So I decided to do this myself.
 My goal is to enable others to better decide if they need to update their Keycloak instances.
 
