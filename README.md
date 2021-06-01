@@ -134,12 +134,6 @@
 
 | Ticket-ID | Commit | Issue-ID |
 | --- | --- | --- |
-| KEYCLOAK-14872 | [KEYCLOAK-14872 CL DoS - read-timetout of the HTTP listener set to 30000 ms - read-timetout of the HTTPS listener set to 30000 ms - max-pool-size of the KeycloakDS datasource set to 100 connections](https://github.com/keycloak/keycloak/commit/bee4ca89897766c4b68856eafe14f1a3dad34251) | https://issues.redhat.com/browse/KEYCLOAK-14872 |
-| KEYCLOAK-15217 | [KEYCLOAK-15217 Revert accidentally removed changes from KEYCLOAK-14107](https://github.com/keycloak/keycloak/commit/ebec28e4c7cc17c944f3737217aa5bfabe24e586) | https://issues.redhat.com/browse/KEYCLOAK-15217 |
-| KEYCLOAK-14352 | [[KEYCLOAK-14352] JavaScript injection vulnerability of Realm registration REST API](https://github.com/keycloak/keycloak/commit/c1bbd7c508e467fc1faaf3709ffe803bbc3e11af) | https://issues.redhat.com/browse/KEYCLOAK-14352 |
-| KEYCLOAK-14232 | [KEYCLOAK-14232 Add Referrer-Policy: no-referrer to each response from Keycloak](https://github.com/keycloak/keycloak/commit/3ba95662df8abe74c9248e879faa8bf4022ede67) | https://issues.redhat.com/browse/KEYCLOAK-14232 |
-| KEYCLOAK-14828 | [KEYCLOAK-14828 Disable DTD for SAML XML parser](https://github.com/keycloak/keycloak/commit/0f6dc45fadbc1f8d2f4a90e8df550ae2f1322510) | https://issues.redhat.com/browse/KEYCLOAK-14828 |
-bash-3.2$ ./get_stuff.sh "10.0.2" "11.0.0" 1
 | KEYCLOAK-14778 | [KEYCLOAK-14778 Springboot tests fails with compilation error](https://github.com/keycloak/keycloak/commit/08023239165f5b4784cb5dde9cfc0fd121b8298e) | https://issues.redhat.com/browse/KEYCLOAK-14778 |
 | KEYCLOAK-14508 | [KEYCLOAK-14508 - Exclude SessionNotOnOrAfterTest from remote tests](https://github.com/keycloak/keycloak/commit/48e4432e9dff0bf0fbe593e72b849e21961e1e1f) | https://issues.redhat.com/browse/KEYCLOAK-14508 |
 | KEYCLOAK-14474 | [KEYCLOAK-14474 ConsentsTest fails intermittently on auth-server-undertow](https://github.com/keycloak/keycloak/commit/71dca9e1b99c05aa2b7c7d38f46b769df509ec04) | https://issues.redhat.com/browse/KEYCLOAK-14474 |
