@@ -48,7 +48,7 @@
 | KEYCLOAK-16468 | [KEYCLOAK-16468 Support for deny list of metadata attributes not updateable by account REST and admin REST](https://github.com/keycloak/keycloak/commit/dae4a3eaf26590b8d441b8e4bec3b700ee303b72) | https://issues.redhat.com/browse/KEYCLOAK-16468 |
 | KEYCLOAK-14019 | [KEYCLOAK-14019 Improvements for request_uri parameter](https://github.com/keycloak/keycloak/commit/eac3329d225a58b43b0bc97300423596063b33c1) | https://issues.redhat.com/browse/KEYCLOAK-14019 |
 | KEYCLOAK-14856 | [KEYCLOAK-14856 fix migration, add ssl for migration server](https://github.com/keycloak/keycloak/commit/dfa27b9f0f980f7a5753e1a3cfd259462704e802) | https://issues.redhat.com/browse/KEYCLOAK-14856 |
-| KEYCLOAK-15390 | [KEYCLOAK-15390 fix ClientMappersOIDCTest](https://github.com/keycloak/keycloak/commit/2ed8ed2543716e5d51acf2ef1c16c6ffd0f8d80b | https://issues.redhat.com/browse/KEYCLOAK-15390 |
+| KEYCLOAK-15390 | [KEYCLOAK-15390 fix ClientMappersOIDCTest](https://github.com/keycloak/keycloak/commit/2ed8ed2543716e5d51acf2ef1c16c6ffd0f8d80b) | https://issues.redhat.com/browse/KEYCLOAK-15390 |
 
 ## 12.0.4
 [Changelog](https://github.com/keycloak/keycloak/compare/12.0.3...12.0.4)
