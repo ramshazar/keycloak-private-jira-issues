@@ -350,6 +350,30 @@ There is no 9.0.1 tag (anymore).
 | KEYCLOAK-12070 | [KEYCLOAK-12070 Split properties for sun.xml.ws and sun.xml.bind](https://github.com/keycloak/keycloak/commit/ee72cab41547b95dc19b2dac50f98b2315dbbeeb) | https://issues.redhat.com/browse/KEYCLOAK-12070 |
 | KEYCLOAK-12070 | [KEYCLOAK-12070 Alignment clash for sun.jaxb.version](https://github.com/keycloak/keycloak/commit/1fd3d8525bf4c29425c3a570246e67fa8c66f339) | https://issues.redhat.com/browse/KEYCLOAK-12070 |
 
+## 8.0.2
+[Changelog](https://github.com/keycloak/keycloak/compare/8.0.1...8.0.2)
+
+| Ticket-ID | Commit | Issue-ID |
+| --- | --- | --- |
+| KEYCLOAK-12877 | [KEYCLOAK-12877 Fix ModelVersion for testing pipeline](https://github.com/keycloak/keycloak/commit/87c73c3ece7ba2ec427c4abbd8ebccccd0204e82) | https://issues.redhat.com/browse/KEYCLOAK-12877 |
+| KEYCLOAK-12648 | [KEYCLOAK-12648 Introduce SameSite attribute in cookies](https://github.com/keycloak/keycloak/commit/6f5f76d7020cbb7db977159a6511872303fe376f) | https://issues.redhat.com/browse/KEYCLOAK-12648 |
+| KEYCLOAK-12439 | [KEYCLOAK-12439 Update node_modules folder](https://github.com/keycloak/keycloak/commit/8e8fde37fdfabfbc9cebb91fb7d568dc6bbe5f09) | https://issues.redhat.com/browse/KEYCLOAK-12439 |
+| KEYCLOAK-12439 | [[KEYCLOAK-12439] Update to Angular 1.7.9](https://github.com/keycloak/keycloak/commit/4c577a485d2a350bd51ce07cc155c485184bc06d) | https://issues.redhat.com/browse/KEYCLOAK-12439 |
+| KEYCLOAK-12190 | [KEYCLOAK-12190 Add validation for client root and base URLs](https://github.com/keycloak/keycloak/commit/05cd4fb39464cb466abb16aecd2aa49a58d5ade5) | https://issues.redhat.com/browse/KEYCLOAK-12190 |
+| KEYCLOAK-12278 | [KEYCLOAK-12278 Default first broker login flow is broken after migration (#252)](https://github.com/keycloak/keycloak/commit/49f9a2bfbc5df9f3b5d2a0e3d0e67d2b9b8b97c4) | https://issues.redhat.com/browse/KEYCLOAK-12278 |
+| KEYCLOAK-9563 | [KEYCLOAK-9563 Improve access token checks for userinfo endpoint](https://github.com/keycloak/keycloak/commit/fe3211c871566098c6475c37aebf43a42388a024) | https://issues.redhat.com/browse/KEYCLOAK-9563 |
+| KEYCLOAK-12571 | [KEYCLOAK-12571 upgrading xstream to newer version](https://github.com/keycloak/keycloak/commit/3aeb70357ace7164cfb14ba0c4ab8ea548ce2848) | https://issues.redhat.com/browse/KEYCLOAK-12571 |
+| KEYCLOAK-12228 | [KEYCLOAK-12228 Sensitive Data Exposure from patch of hiba haddad haddadhiba0@gmail.com](https://github.com/keycloak/keycloak/commit/5c549575bdc91de6e6b8e7848f0ac8cb2f975e0b) | https://issues.redhat.com/browse/KEYCLOAK-12228 |
+| KEYCLOAK-12193 | [KEYCLOAK-12193 Internal error message returned in error response](https://github.com/keycloak/keycloak/commit/514b5e10238fccbf613abb8fa3dff4d1c9ff809c) | https://issues.redhat.com/browse/KEYCLOAK-12193 |
+
+## 8.0.1
+[Changelog](https://github.com/keycloak/keycloak/compare/8.0.0...8.0.1)
+
+| Ticket-ID | Commit | Issue-ID |
+| --- | --- | --- |
+| KEYCLOAK-12242 | [KEYCLOAK-12242 KEYCLOAK-12280](https://github.com/keycloak/keycloak/commit/6f47d7fc2ccab4f31e373774c983501e83dffa4b) | https://issues.redhat.com/browse/KEYCLOAK-12242 |
+| KEYCLOAK-12239 | [KEYCLOAK-12239 [REL] Upgrade to WildFly 18.0.1](https://github.com/keycloak/keycloak/commit/b4dde095e2970c3ed024aa28c127f7fe82b02169) | https://issues.redhat.com/browse/KEYCLOAK-12239 |
+
 # Misq
 
 ## Why?
