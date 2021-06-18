@@ -4,6 +4,42 @@
 
 # Private JIRA Issues
 
+## 14.0.0
+[Changelog](https://github.com/keycloak/keycloak/compare/13.0.1...14.0.0)
+
+| Ticket-ID | Commit | Issue-ID |
+| --- | --- | --- |
+| KEYCLOAK-18464 | [[KEYCLOAK-18464] - Failures when running without tls and remote](https://github.com/keycloak/keycloak/commit/6bb7a8894d6deb1ab46be59d99b3a124e582e733) | https://issues.redhat.com/browse/KEYCLOAK-18464 |
+| KEYCLOAK-18102 | [KEYCLOAK-18102 - set specific jpa schema.](https://github.com/keycloak/keycloak/commit/b1f3e5554c2d3197b043404841cc26b8879d3664) | https://issues.redhat.com/browse/KEYCLOAK-18102 |
+| KEYCLOAK-18406 | [KEYCLOAK-18406 SAMLServletAdapterTest failures](https://github.com/keycloak/keycloak/commit/333d279d7aeb39a3612af1bc7c778a2d1e1f8ffe) | https://issues.redhat.com/browse/KEYCLOAK-18406 |
+| KEYCLOAK-18393 | [KEYCLOAK-18393 SAMLAdapterCrossDCTest failures](https://github.com/keycloak/keycloak/commit/6db1c8204ab4debecfa3950aae71d78db7183891) | https://issues.redhat.com/browse/KEYCLOAK-18393 |
+| KEYCLOAK-18442 | [KEYCLOAK-18442 LifespanAdapterTest - duplicate resources](https://github.com/keycloak/keycloak/commit/78b676232677afd10b603d6f57a0d66488e5c6a9) | https://issues.redhat.com/browse/KEYCLOAK-18442 |
+| KEYCLOAK-18391 | [KEYCLOAK-18391 CIBATest failure](https://github.com/keycloak/keycloak/commit/7ffa2835ef9159fbf6a6112c0783bb10a2260bb7) | https://issues.redhat.com/browse/KEYCLOAK-18391 |
+| KEYCLOAK-18368 | [KEYCLOAK-18368 Invalidate client session after refresh token re-use](https://github.com/keycloak/keycloak/commit/91865fa93e3169cf31d03c8c37578c14a0ebff60) | https://issues.redhat.com/browse/KEYCLOAK-18368 |
+| KEYCLOAK-18260 | [KEYCLOAK-18260 ClientSearchTest.testQuerySearch failure on MSSQL2019 - removed Central European characters from the test](https://github.com/keycloak/keycloak/commit/b071be779905bc2964a970f1f97c56fae067d0f8) | https://issues.redhat.com/browse/KEYCLOAK-18260 |
+| KEYCLOAK-18249 | [KEYCLOAK-18249 WelcomePageTest fails on MSSQL 2019 - removed reference to `FK_P56CTINXXB9GSK57FO49F9TAC` from the `DropAllServlet`](https://github.com/keycloak/keycloak/commit/80eabcb7ebf44d11ee3ef304e7f9e453b49f8b59) | https://issues.redhat.com/browse/KEYCLOAK-18249 |
+| KEYCLOAK-14540 | [KEYCLOAK-14540 Determine project/product name](https://github.com/keycloak/keycloak/commit/4b009ebf5e04f746608e115924c48c3d286485e1) | https://issues.redhat.com/browse/KEYCLOAK-14540 |
+| KEYCLOAK-13757 | [KEYCLOAK-13757 fix for KEYCLOAK-18267_KEYCLOAK-17254](https://github.com/keycloak/keycloak/commit/1033b272e8dcb8bc0681ec3df8e1a02d32134b1f) | https://issues.redhat.com/browse/KEYCLOAK-13757 |
+| KEYCLOAK-13757 | [KEYCLOAK-13757 update JDG version to 8.1 - testsuite updates](https://github.com/keycloak/keycloak/commit/28027401013b912450e01263ee467c511bc3c414) | https://issues.redhat.com/browse/KEYCLOAK-13757 |
+| KEYCLOAK-17254 | [[KEYCLOAK-17254] Adaptively add the default modular JVM options to the "javaVmArguments" to start the cache server container with, if the JVM used to run the cache server is modular (JDK 9+)](https://github.com/keycloak/keycloak/commit/cbd42882053fa79b173934f809f1358c3eaca50a) | https://issues.redhat.com/browse/KEYCLOAK-17254 |
+| KEYCLOAK-18267 | [[KEYCLOAK-18267] Fix 'java.lang.NoClassDefFoundError: Could not initialize class org.jboss.marshalling.river.RiverMarshaller' error for:](https://github.com/keycloak/keycloak/commit/de8dd59d66fa7f44a5353352b3f6bc4b38e36031) | https://issues.redhat.com/browse/KEYCLOAK-18267 |
+| KEYCLOAK-18337 | [KEYCLOAK-18337 FAPI1Test fails in pipeline with auth-server-undertow-non-tls](https://github.com/keycloak/keycloak/commit/12c47150e776f02cda173908e1308443e3e1be8a) | https://issues.redhat.com/browse/KEYCLOAK-18337 |
+| KEYCLOAK-14515 | [KEYCLOAK-14515 ModAuthMellonTest fails](https://github.com/keycloak/keycloak/commit/fc40e875b9545440ba297a546bb3df890960606d) | https://issues.redhat.com/browse/KEYCLOAK-14515 |
+| KEYCLOAK-17796 | [KEYCLOAK-17796 Add options to http-builder to enable expect-continue, and to disable re-use of connections](https://github.com/keycloak/keycloak/commit/c3a15cb368eaa20d6af362926e1d77e7d96f7420) | https://issues.redhat.com/browse/KEYCLOAK-17796 |
+| KEYCLOAK-18112 | [KEYCLOAK-18112 Token introspection of the revoked refresh token](https://github.com/keycloak/keycloak/commit/bc6a746780ab797519886c4448e12edebaac9cf5) | https://issues.redhat.com/browse/KEYCLOAK-18112 |
+| KEYCLOAK-18250 | [[KEYCLOAK-18250] LDAPSyncTest.test09MembershipUsingDifferentAttributes fails on MySQL 8 and MariaDB 10.3](https://github.com/keycloak/keycloak/commit/38101d01c262b2f4585870017011da2c0d4fd012) | https://issues.redhat.com/browse/KEYCLOAK-18250 |
+| KEYCLOAK-18264 | [KEYCLOAK-18264 Fix SamlLogoutTest with different consumer and provider url](https://github.com/keycloak/keycloak/commit/b216b9579c80954b8859bac76aee5d5a81ec1ea2) | https://issues.redhat.com/browse/KEYCLOAK-18264 |
+| KEYCLOAK-16450 | [KEYCLOAK-16450 X509 Direct Grant Auth does not verify certificate timestamp validity](https://github.com/keycloak/keycloak/commit/478319348bdfdb9b6d39122f41edf2af79f679bb) | https://issues.redhat.com/browse/KEYCLOAK-16450 |
+| KEYCLOAK-18056 | [KEYCLOAK-18056 exclude test for remote testsuite.](https://github.com/keycloak/keycloak/commit/afb8da7ff07e0b056a69c7d612e0280196029498) | https://issues.redhat.com/browse/KEYCLOAK-18056 |
+| KEYCLOAK-17683 | [KEYCLOAK-17683 Use dedicated tmp directory even in unit tests](https://github.com/keycloak/keycloak/commit/2817cb4a19b0ea3f3425bbfc602b01b89a3c6c66) | https://issues.redhat.com/browse/KEYCLOAK-17683 |
+| KEYCLOAK-17495 | [KEYCLOAK-17495 Do not include principal in the reference to broker sessionId](https://github.com/keycloak/keycloak/commit/3bb5bff8e0bf9de91dde9323ef8bc2b637b90e1d) | https://issues.redhat.com/browse/KEYCLOAK-17495 |
+| KEYCLOAK-18030 | [[KEYCLOAK-18030] Upgrade Freemarker](https://github.com/keycloak/keycloak/commit/008fa8c2b1c47cf293e9bcd14520e0cc9610579c) | https://issues.redhat.com/browse/KEYCLOAK-18030 |
+| KEYCLOAK-17322 | [KEYCLOAK-17322 Align tested databases with EAP 7.4 support matrix](https://github.com/keycloak/keycloak/commit/12921357292fc2d69982e944df0db3a20dfb6873) | https://issues.redhat.com/browse/KEYCLOAK-17322 |
+| KEYCLOAK-18059 | [[KEYCLOAK-18059] Upgrade dev dependencies for the new Account Console (#8020)](https://github.com/keycloak/keycloak/commit/a6ab3119d63e136eb3ad86f4df572f41b7642449) | https://issues.redhat.com/browse/KEYCLOAK-18059 |
+| KEYCLOAK-18060 | [[KEYCLOAK-18060] Upgrade commons-io](https://github.com/keycloak/keycloak/commit/87282ad18deafc9850c9222f1b033d84d9d8335c) | https://issues.redhat.com/browse/KEYCLOAK-18060 |
+| KEYCLOAK-17997 | [[KEYCLOAK-17997] Upgrade Spring Security](https://github.com/keycloak/keycloak/commit/bbc8d83f64565224a29d325899985c023a36112c) | https://issues.redhat.com/browse/KEYCLOAK-17997 |
+| KEYCLOAK-18001 | [[KEYCLOAK-18001] Upgrade Apache Ant dependency](https://github.com/keycloak/keycloak/commit/818dc40304bf9ae0a752dafe6963e71d8ba7847e) | https://issues.redhat.com/browse/KEYCLOAK-18001 |
+
 ## 13.0.1
 [Changelog](https://github.com/keycloak/keycloak/compare/13.0.0...13.0.1)
 
