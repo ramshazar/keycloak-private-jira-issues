@@ -4,6 +4,38 @@
 
 # Private JIRA Issues
 
+## 15.0.2
+[Changelog](https://github.com/keycloak/keycloak/compare/15.0.1...15.0.2)
+
+| Ticket-ID | Commit | Issue-ID |
+| --- | --- | --- |
+| KEYCLOAK-19038 | [KEYCLOAK-19038 Reload user after being updated](https://github.com/keycloak/keycloak/commit/7668350cb014de1ccf204d12c2df832579cc8a61) | https://issues.redhat.com/browse/KEYCLOAK-19038 |
+| KEYCLOAK-19039 | [KEYCLOAK-19039 Sync UPDATE_PASSWORD required action to only to MSAD with WRITABLE edit mode. Add tests for MSAD mapper](https://github.com/keycloak/keycloak/commit/b9130041d6c34be9d6118f96a3b7d9d914544962) | https://issues.redhat.com/browse/KEYCLOAK-19039 |
+
+## 15.0.1
+[Changelog](https://github.com/keycloak/keycloak/compare/15.0.0...15.0.1)
+
+| Ticket-ID | Commit | Issue-ID |
+| --- | --- | --- |
+| KEYCLOAK-18949 | [KEYCLOAK-18949 DirectGrant login should fail if authenticationSession contains some required actions](https://github.com/keycloak/keycloak/commit/cd3040e7dd16e91c79ec6978d1463699004a8c2f) | https://issues.redhat.com/browse/KEYCLOAK-18949 |
+| KEYCLOAK-18964 | [KEYCLOAK-18964 MetricsRestServiceTest contains wrong health check message](https://github.com/keycloak/keycloak/commit/1b39829a6bcbc6f9f7ec4a983bc59406b321e41d) | https://issues.redhat.com/browse/KEYCLOAK-18964 |
+
+## 15.0.0
+[Changelog](https://github.com/keycloak/keycloak/compare/14.0.0...15.0.0)
+
+| Ticket-ID | Commit | Issue-ID |
+| --- | --- | --- |
+| KEYCLOAK-18597 | [KEYCLOAK-18597 Product distribution ZIP does not include rh-sso-7.5 folder](https://github.com/keycloak/keycloak/commit/3ed20e287896cde238f8d7c2d2b8b8bfc943dc1b) | https://issues.redhat.com/browse/KEYCLOAK-18597 |
+| KEYCLOAK-7724 | [KEYCLOAK-7724 User Profile default validations](https://github.com/keycloak/keycloak/commit/32f2f095fe203e8e5e7a8b1f22fffb453999e943) | https://issues.redhat.com/browse/KEYCLOAK-7724 |
+| KEYCLOAK-16996 | [KEYCLOAK-16996 User not able to revoke his offline token for directGrant clients](https://github.com/keycloak/keycloak/commit/4dacbb9e0b733f772d6e76884c56448f06109806) | https://issues.redhat.com/browse/KEYCLOAK-16996 |
+| KEYCLOAK-18893 | [KEYCLOAK-18893 Adapters tests for EAP6 are failing](https://github.com/keycloak/keycloak/commit/1b989d6b520c3aa9997c63431353f9ec1d8f648d) | https://issues.redhat.com/browse/KEYCLOAK-18893 |
+| KEYCLOAK-18685 | [KEYCLOAK-18685 Style in RH-SSO login screen is broken](https://github.com/keycloak/keycloak/commit/2418e3195264fc5f2b1bb5910c589fc23cabb292) | https://issues.redhat.com/browse/KEYCLOAK-18685 |
+| KEYCLOAK-16534 | [KEYCLOAK-16534 -> New quickstarts scripts folder.](https://github.com/keycloak/keycloak/commit/1ea0232acac0200b0f6130bd80c3662e6f09dced) | https://issues.redhat.com/browse/KEYCLOAK-16534 |
+| KEYCLOAK-18699 | [KEYCLOAK-18699 Brand logo is not found for admin console (#8255)](https://github.com/keycloak/keycloak/commit/8c49478628c68af74f7d011b89c1d2ecc3ce7ed2) | https://issues.redhat.com/browse/KEYCLOAK-18699 |
+| KEYCLOAK-18391 | [KEYCLOAK-18391 CIBATest failures](https://github.com/keycloak/keycloak/commit/9dc7300178a43adc6b5975e6f597f77212da7893) | https://issues.redhat.com/browse/KEYCLOAK-18391 |
+| KEYCLOAK-18560 | [KEYCLOAK-18560 NoClassDefFoundError: Could not initialize class org.keycloak.util.JWKSUtils](https://github.com/keycloak/keycloak/commit/c1168ea6eaa5cb167cafd9413aa9c0b80a9ff563) | https://issues.redhat.com/browse/KEYCLOAK-18560 |
+| KEYCLOAK-18505 | [KEYCLOAK-18505 ConfigMigrationTest failures](https://github.com/keycloak/keycloak/commit/8a82130579424b44185232ddc28a51fd95aa9e4a) | https://issues.redhat.com/browse/KEYCLOAK-18505 |
+
 ## 14.0.0
 [Changelog](https://github.com/keycloak/keycloak/compare/13.0.1...14.0.0)
 
